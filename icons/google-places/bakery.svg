@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+<svg
    version="1.1"
    x="0px"
    y="0px"
@@ -13,38 +6,11 @@
    height="512px"
    viewBox="0 0 512 512"
    enable-background="new 0 0 512 512"
-   xml:space="preserve"
-   id="svg2"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="accounting.svg"><metadata
-   id="metadata9"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs7" /><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="913"
-   inkscape:window-height="1041"
-   id="namedview5"
-   showgrid="false"
-   inkscape:zoom="0.76171875"
-   inkscape:cx="249.14118"
-   inkscape:cy="241.12634"
-   inkscape:window-x="2911"
-   inkscape:window-y="0"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="svg2" />
+   id="bakery-marker">
 <path
-   id="location-5-icon"
+   id="bakery-marker-shell"
    d="M256,50c-93.061,0-168.5,75.44-168.5,168.5C87.5,313,169.43,375.333,256,462  c86.57-86.667,168.5-149,168.5-243.5C424.5,125.44,349.061,50,256,50z M256,336.958c-68.275,0-123.624-55.349-123.624-123.624  c0-68.276,55.349-123.625,123.624-123.625c68.276,0,123.625,55.348,123.625,123.625C379.625,281.609,324.276,336.958,256,336.958z" />
 <path
-   id="path4526"
-   d="m 302.31097,147.20113 c 7.30761,0 13.23133,5.92373 13.23133,13.23135 0,2.4101 -0.6443,4.66979 -1.76997,6.61609 l 1.76997,0 c 7.30763,0 13.23177,5.92372 13.23177,13.23135 0,7.30761 -5.92414,13.23175 -13.23177,13.23175 l 6.61611,0 c 7.30761,0 13.23133,5.92415 13.23133,13.23178 0,7.30761 -5.92372,13.23135 -13.23133,13.23135 l -132.31638,0 c -7.30762,0 -13.23177,-5.92374 -13.23177,-13.23135 0,-7.30763 5.92415,-13.23178 13.23177,-13.23178 l 6.61567,0 c -7.30761,0 -13.23135,-5.92414 -13.23135,-13.23175 0,-7.30763 5.92374,-13.23135 13.23135,-13.23135 l 1.77039,0 c -1.12609,-1.9463 -1.77039,-4.20599 -1.77039,-6.61609 0,-7.30762 5.92415,-13.23135 13.23174,-13.23135 6.61568,0 19.84744,-13.23177 46.31056,-19.84744 26.46353,19.84744 39.69488,19.84744 46.31097,19.84744 z m -112.46894,79.38976 132.31638,0 -19.84744,66.15798 -92.62153,0 -19.84741,-66.15798 z"
-   inkscape:connector-curvature="0"
-   style="fill:#000000;fill-opacity:1;stroke-width:0.2;stroke-linejoin:round" /></svg>
+   id="bakery-marker-conent"
+   d="m 302.31097,147.20113 c 7.30761,0 13.23133,5.92373 13.23133,13.23135 0,2.4101 -0.6443,4.66979 -1.76997,6.61609 l 1.76997,0 c 7.30763,0 13.23177,5.92372 13.23177,13.23135 0,7.30761 -5.92414,13.23175 -13.23177,13.23175 l 6.61611,0 c 7.30761,0 13.23133,5.92415 13.23133,13.23178 0,7.30761 -5.92372,13.23135 -13.23133,13.23135 l -132.31638,0 c -7.30762,0 -13.23177,-5.92374 -13.23177,-13.23135 0,-7.30763 5.92415,-13.23178 13.23177,-13.23178 l 6.61567,0 c -7.30761,0 -13.23135,-5.92414 -13.23135,-13.23175 0,-7.30763 5.92374,-13.23135 13.23135,-13.23135 l 1.77039,0 c -1.12609,-1.9463 -1.77039,-4.20599 -1.77039,-6.61609 0,-7.30762 5.92415,-13.23135 13.23174,-13.23135 6.61568,0 19.84744,-13.23177 46.31056,-19.84744 26.46353,19.84744 39.69488,19.84744 46.31097,19.84744 z m -112.46894,79.38976 132.31638,0 -19.84744,66.15798 -92.62153,0 -19.84741,-66.15798 z" />
+ </svg>
