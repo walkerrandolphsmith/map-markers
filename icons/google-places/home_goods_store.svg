@@ -1,50 +1,15 @@
 <svg
-   
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
    x="0px"
    y="0px"
    width="512px"
    height="512px"
    viewBox="0 0 512 512"
    enable-background="new 0 0 512 512"
-   
-   id="svg2"
-   
-   sodipodi:docname="locksmith.svg"><metadata
-   id="metadata9"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs7" /><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="640"
-   inkscape:window-height="834"
-   id="namedview5"
-   showgrid="false"
-   inkscape:zoom="0.76171875"
-   inkscape:cx="249.14118"
-   inkscape:cy="241.12634"
-   inkscape:window-x="2978"
-   inkscape:window-y="112"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="svg2" />
+   id="homegoodstores-marker">
 <path
-   id="location-5-icon"
+   id="homegoodstores-marker-shell"
    d="M256,50c-93.061,0-168.5,75.44-168.5,168.5C87.5,313,169.43,375.333,256,462  c86.57-86.667,168.5-149,168.5-243.5C424.5,125.44,349.061,50,256,50z M256,336.958c-68.275,0-123.624-55.349-123.624-123.624  c0-68.276,55.349-123.625,123.624-123.625c68.276,0,123.625,55.348,123.625,123.625C379.625,281.609,324.276,336.958,256,336.958z" />
 <path
-   id="path4647"
-   d="m 291.19108,283.05911 c 8.63997,0 15.64454,7.00458 15.64454,15.64454 l 0,10.42969 -104.29688,0 0,-10.42969 c 0,-8.63996 7.00404,-15.64454 15.64452,-15.64454 l 26.07423,0 0,-104.29689 -52.14844,0 31.28906,-67.79298 62.57814,0 31.28906,67.79298 -52.14844,0 0,104.29689 26.07421,0 z"
-   inkscape:connector-curvature="0"
-   style="fill:#000000;fill-opacity:1;stroke-width:0.2;stroke-linejoin:round" /></svg>
+   id="homegoodstores-marker-content"
+   d="m 291.19108,283.05911 c 8.63997,0 15.64454,7.00458 15.64454,15.64454 l 0,10.42969 -104.29688,0 0,-10.42969 c 0,-8.63996 7.00404,-15.64454 15.64452,-15.64454 l 26.07423,0 0,-104.29689 -52.14844,0 31.28906,-67.79298 62.57814,0 31.28906,67.79298 -52.14844,0 0,104.29689 26.07421,0 z"/>
+</svg>

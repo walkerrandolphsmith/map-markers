@@ -1,50 +1,15 @@
 <svg
-   
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
    x="0px"
    y="0px"
    width="512px"
    height="512px"
    viewBox="0 0 512 512"
    enable-background="new 0 0 512 512"
-   
-   id="svg2"
-   
-   sodipodi:docname="real_estate_agent.svg"><metadata
-   id="metadata9"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs7" /><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="1253"
-   inkscape:window-height="1041"
-   id="namedview5"
-   showgrid="false"
-   inkscape:zoom="0.4609375"
-   inkscape:cx="256"
-   inkscape:cy="256"
-   inkscape:window-x="2571"
-   inkscape:window-y="0"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="svg2" />
+   id="church-marker">
 <path
-   id="location-5-icon"
+   id="church-marker-shell"
    d="M256,50c-93.061,0-168.5,75.44-168.5,168.5C87.5,313,169.43,375.333,256,462  c86.57-86.667,168.5-149,168.5-243.5C424.5,125.44,349.061,50,256,50z M256,336.958c-68.275,0-123.624-55.349-123.624-123.624  c0-68.276,55.349-123.625,123.624-123.625c68.276,0,123.625,55.348,123.625,123.625C379.625,281.609,324.276,336.958,256,336.958z" />
 <path
-   id="path3669"
-   d="m 244.15524,173.41526 8.88348,-53.30085 5.92256,0 8.88348,53.30085 -23.68952,0 z m 29.61172,38.4948 47.37865,47.37866 -8.88385,5.92219 L 256,205.98787 l -56.26212,59.22304 -8.88349,-5.92219 47.37866,-47.37866 0,-19.24741 5.92219,0 0,-14.80566 23.68952,0 0,14.80566 5.9222,0 0,19.24741 z M 256,220.79353 l 47.37866,47.37866 0,29.6117 -35.5339,0 0,-23.68951 c 0,-6.5416 -5.30316,-11.84438 -11.84476,-11.84438 -6.5416,0 -11.84476,5.30278 -11.84476,11.84438 l 0,23.68951 -35.53389,0 0,-29.6117 L 256,220.79353 z"
-   inkscape:connector-curvature="0"
-   style="fill:#000000;fill-opacity:1;stroke-width:0.2;stroke-linejoin:round" /></svg>
+   id="church-marker-content"
+   d="m 244.15524,173.41526 8.88348,-53.30085 5.92256,0 8.88348,53.30085 -23.68952,0 z m 29.61172,38.4948 47.37865,47.37866 -8.88385,5.92219 L 256,205.98787 l -56.26212,59.22304 -8.88349,-5.92219 47.37866,-47.37866 0,-19.24741 5.92219,0 0,-14.80566 23.68952,0 0,14.80566 5.9222,0 0,19.24741 z M 256,220.79353 l 47.37866,47.37866 0,29.6117 -35.5339,0 0,-23.68951 c 0,-6.5416 -5.30316,-11.84438 -11.84476,-11.84438 -6.5416,0 -11.84476,5.30278 -11.84476,11.84438 l 0,23.68951 -35.53389,0 0,-29.6117 L 256,220.79353 z" />
+</svg>

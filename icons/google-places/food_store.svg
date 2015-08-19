@@ -1,50 +1,15 @@
 <svg
-   
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
    x="0px"
    y="0px"
    width="512px"
    height="512px"
    viewBox="0 0 512 512"
    enable-background="new 0 0 512 512"
-   
-   id="svg2"
-   
-   sodipodi:docname="clothing_store.svg"><metadata
-   id="metadata9"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs7" /><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="1253"
-   inkscape:window-height="1041"
-   id="namedview5"
-   showgrid="false"
-   inkscape:zoom="0.4609375"
-   inkscape:cx="256"
-   inkscape:cy="256"
-   inkscape:window-x="2571"
-   inkscape:window-y="0"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="svg2" />
+   id="foodstore-marker">
 <path
-   id="location-5-icon"
+   id="foodstore-marker-shell"
    d="M256,50c-93.061,0-168.5,75.44-168.5,168.5C87.5,313,169.43,375.333,256,462  c86.57-86.667,168.5-149,168.5-243.5C424.5,125.44,349.061,50,256,50z M256,336.958c-68.275,0-123.624-55.349-123.624-123.624  c0-68.276,55.349-123.625,123.624-123.625c68.276,0,123.625,55.348,123.625,123.625C379.625,281.609,324.276,336.958,256,336.958z" />
 <path
-   id="path3494"
-   d="m 175.649,237.65033 c 0,0 -5.57289,-19.50531 39.01132,-18.11217 44.58386,-1.39314 39.01097,18.11217 39.01097,18.11217 l -78.02229,0 z m 0,27.86518 78.02229,0 c 0,0 5.57289,18.11217 -39.01132,16.71904 -44.58386,1.39313 -39.01097,-16.71904 -39.01097,-16.71904 z m 5.57325,-20.8988 66.87579,0 c 4.61692,0 8.35952,2.34947 8.35952,6.96639 0,4.61691 -3.7426,6.96638 -8.35952,6.96638 l -66.87579,0 c -4.61692,0 -8.35952,-2.34947 -8.35952,-6.96638 0,-4.61692 3.7426,-6.96639 8.35952,-6.96639 z m 89.16808,37.61784 -13.93277,-105.88712 48.48556,0 10.03107,-33.43808 11.14614,0 -10.03142,33.43808 7.2448,0 -13.93242,105.88712 -39.01096,0 z"
-   inkscape:connector-curvature="0"
-   style="fill:#000000;fill-opacity:1;stroke-width:0.2;stroke-linejoin:round" /></svg>
+   id="foodstore-marker-content"
+   d="m 175.649,237.65033 c 0,0 -5.57289,-19.50531 39.01132,-18.11217 44.58386,-1.39314 39.01097,18.11217 39.01097,18.11217 l -78.02229,0 z m 0,27.86518 78.02229,0 c 0,0 5.57289,18.11217 -39.01132,16.71904 -44.58386,1.39313 -39.01097,-16.71904 -39.01097,-16.71904 z m 5.57325,-20.8988 66.87579,0 c 4.61692,0 8.35952,2.34947 8.35952,6.96639 0,4.61691 -3.7426,6.96638 -8.35952,6.96638 l -66.87579,0 c -4.61692,0 -8.35952,-2.34947 -8.35952,-6.96638 0,-4.61692 3.7426,-6.96639 8.35952,-6.96639 z m 89.16808,37.61784 -13.93277,-105.88712 48.48556,0 10.03107,-33.43808 11.14614,0 -10.03142,33.43808 7.2448,0 -13.93242,105.88712 -39.01096,0 z"/>
+ </svg>
