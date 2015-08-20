@@ -2,15 +2,20 @@
   "name": "map-markers",
   "version": "0.0.1",
   "description": "Map markers for use in map applications.",
-  "dependencies": {},
+  "dependencies": {
+    "underscore": "~1.7.0",
+    "q": "~1.1.2",
+    "fs": "0.0.2"
+  },
   "devDependencies": {
     "gulp": "~3.6.2",
-    "gulp-svg-sprite": "~1.2.9"
+    "gulp-svg-sprite": "~1.2.9",
+    "require-dir": "~0.1.0"
   },
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "http://github.com/walkerrandolphsmith/map-markers"
   },
   "author": [
     "Walker Smith"
