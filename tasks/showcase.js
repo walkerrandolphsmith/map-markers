@@ -13,11 +13,11 @@ gulp.task('showcase', function () {
                 var fileName = file.fileName;
                 var content = file.content;
                 fileName = fileName.replace('.svg', '');
-                return '<svg viewBox="0 0 512 512"><use xlink:href="sprites/defs/svg/sprite.defs.svg#google-places--' + fileName + '"></use></svg>'
+                return '<li><svg viewBox="0 0 512 512"><use xlink:href="sprites/defs/svg/sprite.defs.svg#google-places--' + fileName + '"></use></svg><span>'+ fileName.replace('_', ' ') +'</span></li>'
             });
         })
         .then(function(iconsMarkup){
-          return iconsMarkup.join('\n');
+          return "<ul>" + iconsMarkup.join('\n') + "</ul>";
         })
         .then(function(result){
           readFile(pwd,"/template.html")
