@@ -6,7 +6,7 @@ var config = require('./config');
 
 gulp.task('showcase', function () {
     var pwd = process.cwd();
-    var directory = pwd + "/icons/google-places/";
+    var directory = pwd + "/src/icons/google-places/";
     iterateDirectory(directory)
         .then(function(files){
             return files.map(function(file){
@@ -20,7 +20,7 @@ gulp.task('showcase', function () {
           return "<ul>" + iconsMarkup.join('\n') + "</ul>";
         })
         .then(function(result){
-          readFile(pwd,"/template.html")
+          readFile(pwd,"/src/template.html")
             .then(function(file){
               file.content = file.content.replace('showcase', result);
               return file.content;
