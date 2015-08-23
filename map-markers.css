@@ -1,1 +1,1 @@
-ul li:hover svg{fill:#fff}ul li:hover span{background-color:#fff}ul li span{vertical-align:middle;vertical-align:-webkit-baseline-middle;width:50px;height:50px}
+ul{list-style:none}ul li{width:100px;border-radius:5px}ul li:hover svg{fill:#fff}ul li:hover span{background-color:#fff}ul li svg{vertical-align:middle;vertical-align:-webkit-baseline-middle;width:50px;height:50px}
