@@ -11,10 +11,11 @@ gulp.task('showcase', function () {
     iterateDirectory(directory)
         .then(function(files){
             return files.map(function(file){
+                var link = "https://github.com/walkerrandolphsmith/map-markers/blob/master/icons/google-places/" + file.fileName;
                 var fileName = file.fileName.replace('.svg', '');
                 var iconName = fileName.replace('_', ' ');
 
-                return '<li><svg viewBox="0 0 512 512"><use xlink:href="sprites/defs/svg/sprite.defs.svg#google-places--' + fileName + '"></use></svg><span>'+ iconName +'</span></li>'
+                return '<li><svg viewBox="0 0 512 512"><use xlink:href="sprites/defs/svg/sprite.defs.svg#google-places--' + fileName + '"></use></svg><span><a href="'+ link + '">' + iconName +'</a></span></li>'
             });
         })
         .then(function(iconsMarkup){
