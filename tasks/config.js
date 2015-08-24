@@ -3,13 +3,18 @@ var pkg = require('./../package.json');
 var config = {
     port: 4000,
     svg : {
+      root: "/src/icons/google-places",
       src: './src/icons/**/*.svg',
-      dest: 'sprites'
+      dest: './dist/sprites/'
     },
     styles: {
         src: './src/styles.less',
-        dest: './',
+        dest: './dist/',
         name: pkg.name + '.css'
+    },
+    html: {
+      src: "/src/template.html",
+      dest: "./dist/index.html"
     }
 };
 

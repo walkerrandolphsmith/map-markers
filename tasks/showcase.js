@@ -6,32 +6,33 @@ var config = require('./config');
 
 gulp.task('showcase', function () {
     var pwd = process.cwd();
-    var directory = pwd + "/src/icons/google-places/";
+    var directory = pwd + config.svg.root;
+
     iterateDirectory(directory)
         .then(function(files){
             return files.map(function(file){
-                var fileName = file.fileName;
-                var content = file.content;
-                fileName = fileName.replace('.svg', '');
-                return '<li><svg viewBox="0 0 512 512"><use xlink:href="sprites/defs/svg/sprite.defs.svg#google-places--' + fileName + '"></use></svg><span>'+ fileName.replace('_', ' ') +'</span></li>'
+                var fileName = file.fileName.replace('.svg', '');
+                var iconName = fileName.replace('_', ' ');
+
+                return '<li><svg viewBox="0 0 512 512"><use xlink:href="sprites/defs/svg/sprite.defs.svg#google-places--' + fileName + '"></use></svg><span>'+ iconName +'</span></li>'
             });
         })
         .then(function(iconsMarkup){
-          return "<ul>" + iconsMarkup.join('\n') + "</ul>";
+          return iconsMarkup.join('\n');
         })
         .then(function(result){
-          readFile(pwd,"/src/template.html")
+          return readFile(pwd,config.html.src)
             .then(function(file){
               file.content = file.content.replace('showcase', result);
               return file.content;
-            })
-            .then(function(newFile){
-              fs.writeFile('./index.html', newFile, function(error){
-                if (error){
-                  console.error(error);
-                }
-              });
-            })
+            });
+        })
+        .then(function(newFile){
+          fs.writeFile(config.html.dest, newFile, function(error){
+            if (error){
+              console.error(error);
+            }
+          });
         });
 });
 
