@@ -15,6 +15,10 @@ var config = {
     html: {
       src: "/src/template.html",
       dest: "./dist/index.html"
+    },
+    assets: {
+      src: "./src/assets/**/*.png",
+      dest: "./dist/assets/"
     }
 };
 
