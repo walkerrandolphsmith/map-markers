@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Puritan:400,700|Oswald);
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,600);
+
 body {
   margin: 0;
 }
@@ -6,27 +9,30 @@ body {
   width: 100%;
   height: 200px;
   text-align: center;
-  background-image: url('./assets/map.png');
-  background-size: cover;
-  background-position: center;
   h1 {
-    font-size: 52px;
-    font-family: sans-serif;
-    text-shadow: 4px 3px 0px white, 9px 8px 0px rgba(0, 0, 0, 0.15);
+    font-family: "Oswald";
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
     transform: translateY(60px);
   }
 }
 
 ul {
   list-style: none;
-  columns: 4;
-  -webkit-columns: 4;
-  -moz-columns: 4;
+  box-sizing: border-box;
+  padding: 1em;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 
   li {
-    width: 100%;
-    border-radius: 5px;
     padding: 1em;
+    width: 240px;
+    flex-grow: 1;
     cursor: pointer;
 
     &:hover {
